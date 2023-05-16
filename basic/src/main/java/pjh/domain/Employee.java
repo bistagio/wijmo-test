@@ -28,6 +28,9 @@ public class Employee {
     @ElementCollection
     private List<EmployeeUser> employeeUser;
 
+    @Embedded
+    private EmployeeUser employeeUser;
+
     @PostPersist
     public void onPostPersist() {
         EmployeeAdd employeeAdd = new EmployeeAdd(this);

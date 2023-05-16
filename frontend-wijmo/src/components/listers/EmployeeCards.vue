@@ -81,6 +81,7 @@
                     'rankId': {},
                     'departmentId': {},
                     'employeeUser': [],
+                    'employeeUser': {},
                 }
             },
 
